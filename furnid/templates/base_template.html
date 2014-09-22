@@ -1,0 +1,23 @@
+{% load staticfiles %}
+
+
+<!DOCTYPE html>
+<html>
+    <head><title>FURNID</title></head>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/garagesale.css' %}">
+
+
+<body>
+ <!-- Navbar -->
+ <div class="menu">
+     <img id="logo" width="150px" src="{% static "img/logo.png" %}">
+     <a href="{% url 'what' %}">WHAT WE DO</a> |
+     <a href="{% url 'what' %}">HOW IT WORKS</a> |
+     <a href="{% url 'what' %}">CONTACT</a>
+
+ </div>
+<hr>
+{% block content %}{% endblock content %}
+<!-- Footer -->
+</body>
+</html>

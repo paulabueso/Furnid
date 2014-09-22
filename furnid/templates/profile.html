@@ -1,0 +1,21 @@
+{% extends 'base_template.html' %}
+
+{% block content %}
+
+    <h2>{{user.username}}'s Profile</h2>
+{#    <h3>{{ user.email}}</h3>#}
+
+<ul>
+    {% for furniture in furn %}
+        <li>{{ furniture.message}} </li>
+    {%  endfor %}
+       <ul>{% for item in items %}
+            <li>{{ item}} </li>
+        {%  endfor %}</ul>
+</ul>
+<a href="{% url 'add_list' %}">Start a new list!</a>
+
+
+
+<a href="{% url 'add_item' %}">Add furniture to your list!</a>
+{% endblock %}

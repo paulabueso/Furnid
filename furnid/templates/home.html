@@ -1,0 +1,11 @@
+{% extends 'base_template.html' %}
+
+{% block content %}
+    <p>Welcome to Furnid</p>
+
+    <a href="{% url 'login' %}">PROVIDE AN INVENTORY</a>
+
+    <br>
+    <a href="{% url 'customer' %}">FIND INVENTORIES</a>
+
+{% endblock content %}

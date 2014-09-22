@@ -1,0 +1,105 @@
+/*.leaflet-container {  *//* all maps */
+    /*width:  600px;*/
+    /*height: 400px;*/
+/*}*/
+
+/*#specialbigmap {*/
+    /*height: 800px;*/
+/*}*/
+
+
+/*body{color: A6A8AA;*/
+    /*font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;*/
+    /*text-align: center}*/
+
+
+/*.project{*/
+    /*width: 20%;*/
+    /*border: 5px solid red;*/
+    /*margin: 6.5%;*/
+    /*position: absolute;*/
+    /*display: inline-block;*/
+/*}*/
+
+/*.wrapper{*/
+    /*width: 100%;*/
+/*}*/
+
+/*img{*/
+    /*background-image: url('../img/background.jpg')*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+
+/*#map { height: 180px; }*/
+
+/* Style the Form */
+/*label{*/
+    /*margin-left: 10%;*/
+    /*border: 5px solid red;*/
+    /*width: 200px;*/
+        /*display: inline-block;*/
+    /*float:left;}*/
+/*input {*/
+    /*width: 200px;*/
+    /*display: block;*/
+    /*margin-bottom: 10px;*/
+    /*background-color: #eeeeeee;*/
+    /*margin: auto;*/
+
+    /*;*/
+/*}*/
+/*label{display: block;*/
+    /*position: absolute;*/
+    /*margin-left: 180px;*/
+    /*color:gray;}*/
+
+
+/*.view_list p{*/
+    /*font-size: 1.5em;*/
+/*}*/
+
+/*table, th, td {*/
+    /*border: 2px solid black;*/
+    /*border-collapse: collapse;*/
+/*}*/
+/*th,td {*/
+    /*padding: 1%;*/
+/*}*/
+
+body{
+    margin: auto;
+    width: 95%;
+    color: #A6A8AA;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+
+#profile{
+    /*background-image: url('../img/map (1).png');*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    height: 800px;
+    font-color: black;
+}
+
+#profile a{
+    text-decoration: none;
+    font-color: white;
+}
+#logo{width: 50px;
+    height: 50px;
+    display:inline-block;
+    float: left;}
+div.menu a {
+    float: right;
+    color: red;
+    margin: 5px;
+    margin-top: 32px;
+}

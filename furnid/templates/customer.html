@@ -1,0 +1,16 @@
+{% extends 'base_template.html' %}
+
+{% block content %}
+<h1>Like any of these furniture lots?</h1>
+    <h3>{{ user.email}}</h3>
+
+<ul>
+    {% for furniture in furn %}
+        <li>{{ furniture.message}} </li>
+    {%  endfor %}
+       <ul>{% for item in items %}
+            <li>{{ item}} </li>
+        {%  endfor %}</ul>
+</ul>
+<a href="{% url "offer" %}">Bid for a list</a>
+{% endblock content %}
